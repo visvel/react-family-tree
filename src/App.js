@@ -16,7 +16,7 @@ const App = () => {
   }, []);
 
   const loadExcel = async () => {
-    const response = await fetch('/family_tree.xlsx');
+    const response = await fetch('/Test_family_tree.xlsx');
     const arrayBuffer = await response.arrayBuffer();
     const workbook = XLSX.read(arrayBuffer, { type: 'array' });
     const sheet = workbook.Sheets[workbook.SheetNames[0]];
