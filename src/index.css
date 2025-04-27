@@ -1,18 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f4f8;
+  background: #f5f5f5;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-button {
-  display: block;
-  margin: 20px auto 0 auto;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+.node-style {
+  background: #e6f7ff;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
